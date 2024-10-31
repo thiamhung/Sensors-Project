@@ -15,6 +15,8 @@ realWorldWidth = 85.6; % For example, a credit card
 % Convert the image to grayscale
 grayImage = rgb2gray(frame);
 
+i
+
 % Use a simple threshold to create a binary image
 binaryImage = imbinarize(grayImage);
 
